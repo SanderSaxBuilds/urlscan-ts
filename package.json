@@ -1,0 +1,30 @@
+{
+  "name": "urlscan-ts",
+  "version": "0.1.0",
+  "description": "Small typed TypeScript client for the urlscan.io API: search, scan, results and screenshots",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test --experimental-strip-types test/*.test.ts",
+    "prepare": "tsc -p tsconfig.build.json"
+  },
+  "keywords": ["urlscan", "urlscan.io", "threat intelligence", "phishing", "security", "typescript"],
+  "author": "Alexandr Khrustalev",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/SanderSaxBuilds/urlscan-ts.git" },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

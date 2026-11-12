@@ -1,0 +1,26 @@
+{
+ "status": 400,
+ "headers": {
+  "content-type": "application/json; charset=utf-8",
+  "x-rate-limit-scope": "ip-address",
+  "x-rate-limit-action": "search",
+  "x-rate-limit-window": "minute",
+  "x-rate-limit-limit": "30",
+  "x-rate-limit-remaining": "28",
+  "x-rate-limit-reset": "2026-11-12T18:21:00.000Z",
+  "x-rate-limit-reset-after": "34",
+  "x-rate-limit-concurrency-rank": "0",
+  "x-rate-limit-concurrency-limit": "10"
+ },
+ "body": {
+  "message": "Expected \"!\", \"&&\", \"(\", \"+\", \"-\", \".\", \"/\", \"AND NOT\", \"AND\", \"NOT\", \"OR NOT\", \"OR\", \"[\", \"\\\"\", \"\\\\\", \"{\", \"||\", [^: \\t\\r\\n\\x0C{}()\"/\\^~[\\]], or whitespace but end of input found.",
+  "status": 400,
+  "errors": [
+   {
+    "title": "Expected \"!\", \"&&\", \"(\", \"+\", \"-\", \".\", \"/\", \"AND NOT\", \"AND\", \"NOT\", \"OR NOT\", \"OR\", \"[\", \"\\\"\", \"\\\\\", \"{\", \"||\", [^: \\t\\r\\n\\x0C{}()\"/\\^~[\\]], or whitespace but end of input found.",
+    "detail": "Expected \"!\", \"&&\", \"(\", \"+\", \"-\", \".\", \"/\", \"AND NOT\", \"AND\", \"NOT\", \"OR NOT\", \"OR\", \"[\", \"\\\"\", \"\\\\\", \"{\", \"||\", [^: \\t\\r\\n\\x0C{}()\"/\\^~[\\]], or whitespace but end of input found.",
+    "status": 400
+   }
+  ]
+ }
+}

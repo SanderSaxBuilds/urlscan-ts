@@ -1,0 +1,16 @@
+{
+ "status": 403,
+ "headers": {
+  "content-type": "application/json; charset=utf-8",
+  "x-rate-limit-scope": "ip-address",
+  "x-rate-limit-action": "retrieve",
+  "x-rate-limit-window": "minute",
+  "x-rate-limit-limit": "20",
+  "x-rate-limit-remaining": "19",
+  "x-rate-limit-reset": "2026-11-12T18:21:00.000Z",
+  "x-rate-limit-reset-after": "33"
+ },
+ "body": {
+  "warning": "You're not logged in!"
+ }
+}
